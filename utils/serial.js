@@ -107,6 +107,7 @@ function listenersPort(){
     })
     portConfigured.on('close', function(err) {
         portConnected = false;
+        receivingData = false;
         portConfigured = "";
         console.log("Porta fechou");
     })
