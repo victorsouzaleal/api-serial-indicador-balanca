@@ -1,0 +1,128 @@
+#app{
+    margin: 0 auto; 
+    width: 500px; 
+    height: 600px;  
+    text-align: center;
+    background-image: url('https://cdn.clipart.email/d01f83c7c845087583c54d2e5051b463_android-transparent-png-stickpng_400-400.png');
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+}
+
+#principal,#config{
+    width: 243px;
+    height: 435px;
+    background-color: #e3e3e3;
+    position: absolute;
+    left: 129px;
+    top: 91px;
+}
+
+#principal{
+    display: block;
+}
+
+#config{
+    display: none;
+}
+
+.botoes button {
+    border: none;
+    width: 100px;
+    height: 30px;
+    box-shadow: 3px 3px #000;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+#menu-config{
+    border: none;
+    width: 100px;
+    height: 30px;
+    box-shadow: 3px 3px #000;
+    margin: 4px;
+    border-radius: 10px;
+    background-color: #0291f0;
+    color:#FFF;
+    font-weight: bold;
+}
+
+#menu-config:hover{
+    background-color: #027ac9;
+    transition: 1s;
+    cursor:pointer;
+}
+
+
+#connect,#save {
+    background-color: green;
+    color:#FFF;
+    font-weight: bold;
+}
+
+#connect:hover,#save:hover{
+    background-color: #31632f;
+    transition: 1s;
+    cursor:pointer;
+}
+
+#back {
+    background-color: #0291f0;
+    color:#FFF;
+    font-weight: bold;
+}
+
+#back:hover{
+    background-color: #027ac9;
+    transition: 1s;
+    cursor:pointer;
+}
+
+#disconnect {
+    background-color: red;
+    color:#FFF;
+    font-weight: bold;
+}
+
+#disconnect:hover {
+    background-color: #a61b24;
+    transition: 1s;
+    cursor:pointer;
+}
+
+.content{
+    margin-top: 50px;
+}
+
+.content label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.content select {
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+.botoes {
+    padding-top: 20px;
+}
+
+.botoes button:disabled{
+    background-color: gray!important;
+    cursor:initial;
+}
+
+#msggeral,#msgserial{
+    color: blue;
+    margin: 1px;
+}
+
+span {
+    font-size: 19px;
+}
