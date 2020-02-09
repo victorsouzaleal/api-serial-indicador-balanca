@@ -18,6 +18,10 @@ Após esse comando o servidor deverá estar executando em sua http://localhost:3
 ## Indicadores suportados
 Até o momento será suportado apenas o indicador **WT1000N** mas futuramente novos serão adicionados.
 
+WT1000N (Verifique no manual da fabricante Weightech) :
+- Configurar formato de saída para 0,0000000,0000000,0000000 (Transmissão continua)
+- Baud rate : 9600
+
 ## Comandos básicos
 
 **Abrir porta específica**
